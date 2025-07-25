@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Score - Rail Industry</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Quiz Complete!</h1>
+        <p>Your final score is:</p>
+        <p class="score">{{ score }} / {{ total }}</p>
+        <a href="/quiz" class="button">Play Again</a>
+    </div>
+</body>
+</html> 
